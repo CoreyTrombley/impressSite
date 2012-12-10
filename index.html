@@ -1,49 +1,4 @@
 <!doctype html>
-
-<!--
-
-    Welcome to the light side of the source, young padawan.
-
-    One step closer to learn something interesting you are...
-
-                               ____                  
-                            _.' :  `._               
-                        .-.'`.  ;   .'`.-.           
-               __      / : ___\ ;  /___ ; \      __  
-             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
-             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
-                  `:-.._J '-.-'L__ `-.-' L_..-;'     
-                    "-.__ ;  .-"  "-.  : __.-"       
-                        L ' /.======.\ ' J           
-                         "-.   "__"   .-"            
-                        __.l"-:_JL_;-";.__           
-                     .-j/'.;  ;""""  / .'\"-.        
-                   .' /:`. "-.:     .-" .';  `.      
-                .-"  / ;  "-. "-..-" .-"  :    "-.   
-             .+"-.  : :      "-.__.-"      ;-._   \  
-             ; \  `.; ;                    : : "+. ; 
-             :  ;   ; ;                    : ;  : \: 
-             ;  :   ; :                    ;:   ;  : 
-            : \  ;  :  ;                  : ;  /  :: 
-            ;  ; :   ; :                  ;   :   ;: 
-            :  :  ;  :  ;                : :  ;  : ; 
-            ;\    :   ; :                ; ;     ; ; 
-            : `."-;   :  ;              :  ;    /  ; 
-             ;    -:   ; :              ;  : .-"   : 
-             :\     \  :  ;            : \.-"      : 
-              ;`.    \  ; :            ;.'_..-=  / ; 
-              :  "-.  "-:  ;          :/."      .'  :
-               \         \ :          ;/  __        :
-                \       .-`.\        /t-""  ":-+.   :
-                 `.  .-"    `l    __/ /`. :  ; ; \  ;
-                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
-                    \ / .-"   /.     .'.' ;_:'    ;  
-                     :-""-.`./-.'     /    `.___.'   
-                           \ `t  ._  /               
-                            "-.t-._:'                
-
--->
-
 <!--
     
     So you'd like to know how to use impress.js?
@@ -68,12 +23,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>Elaine Trombley</title>
     
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
 
     <!--
         
@@ -90,6 +46,7 @@
         When creating your own presentation get rid of this file. Start from scratch, it's fun!
         
     -->
+
     <link href="css/impress-demo.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
@@ -164,9 +121,9 @@
         It will not be rotated or scaled.
         
     -->
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>Aren't you just <b>bored</b> with all those slides-based presentations?</q>
-    </div>
+    <!-- <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>Who is Elaine?</q>
+    </div> -->
 
     <!--
         
@@ -183,13 +140,13 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q>Don't you think that presentations given <strong>in modern browsers</strong> shouldn't <strong>copy the limits</strong> of 'classic' slide decks?</q>
+    <!-- <div class="step slide" data-x="0" data-y="-1500">
+        
     </div>
 
     <div class="step slide" data-x="1000" data-y="-1500">
-        <q>Would you like to <strong>impress your audience</strong> with <strong>stunning visualization</strong> of your talk?</q>
-    </div>
+        
+    </div> -->
 
     <!--
         
@@ -201,10 +158,9 @@
         down (4 times) to make it back to it's correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
-        <span class="try">then you should try</span>
-        <h1>impress.js<sup>*</sup></h1>
-        <span class="footnote"><sup>*</sup> no rhyme intended</span>
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="7">
+        <h2><q>Who is Elaine?</q></h2>
+        <h6>(push right arrow key or the space bar)</h6>
     </div>
 
     <!--
@@ -215,16 +171,13 @@
         element should be rotated by 90 degrees clockwise.
         
     -->
-    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <div id="its" class="step" data-x="9000" data-y="0" data-z="1000" data-rotate="90" data-scale="5">
+       <h3 class="shadow">Designer</h3>
     </div>
 
-    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+    <div id="big" class="step" data-x="9000" data-y="3000" data-z="2000" data-rotate="180" data-scale="4">
+        <h3 class="shadow">UX/UI Obsessor</h3>
     </div>
-
     <!--
         
         And now it gets really exciting! We move into third dimension!
@@ -234,8 +187,8 @@
         positioned far away from us (by 3000px).
         
     -->
-    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <p>and <b>tiny</b> ideas</p>
+    <div id="tiny" class="step" data-x="7400" data-y="0" data-z="3000" data-rotate="270" data-scale="3">
+        <h3 class="shadow">HTML & CSS Dabbler</h3>
     </div>
 
     <!--
@@ -258,23 +211,68 @@
         Only one current step has the `present` class.
         
     -->
-    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
+    <div id="ing" class="step" data-x="13000" data-y="0" data-z="-4000" data-rotate="360" data-scale="3">
+        <h3 class="shadow">Innovator</h3>
     </div>
 
-    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    <div id="imagination" class="step" data-x="-1300" data-y="4900" data-rotate-x="80" data-scale="7">
+        <h2>Elaine Styles</h2>
+        <a href="design.html"><img src="img/design.png" class="frame"></a>
     </div>
 
-    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-        <p>want to know more?</p>
-        <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    <div id="source" class="step" data-x="10000" data-y="7500" data-rotate="" data-scale="3">
+        <div id="form-title" class="form-title field">
+          <h2>
+               Contact Me
+          </h2>
+     </div>
+      
+      
+     <form action="process_form.php" class="TTWForm" method="post" novalidate="">
+           
+           
+          <div id="field2-container" class="field f_50">
+               <label for="field2">
+                    First Name
+               </label>
+               <input type="text" name="firstname" id="field2" required="required">
+          </div>
+           
+           
+          <div id="field1-container" class="field f_50">
+               <label for="field1">
+                    Last Name
+               </label>
+               <input type="text" name="lastname" id="field1" required="required">
+          </div>
+           
+           
+          <div id="field3-container" class="field f_100">
+               <label for="field3">
+                    Email Address
+               </label>
+               <input type="email" name="email" id="field3" required="required">
+          </div>
+           
+           
+          <div id="field4-container" class="field f_100">
+               <label for="field4">
+                    Message
+               </label>
+               <textarea rows="5" cols="20" name="message" id="field4" required="required"></textarea>
+          </div>
+           
+           
+          <div id="form-submit" class="field f_100 clearfix submit">
+               <input type="submit" value="Submit">
+          </div>
+     </form>
     </div>
 
-    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <p>one more thing...</p>
+   <!--  <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        
     </div>
-
+ -->
     <!--
         
         And the last one shows full power and flexibility of impress.js.
@@ -287,10 +285,10 @@
         as `data-rotate` (these two are basically aliases).
         
     -->
-    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+    <!-- <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
         <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
         <span class="footnote">* beat that, prezi ;)</span>
-    </div>
+    </div> -->
 
     <!--
         
@@ -307,10 +305,9 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="12">
 
-</div>
+    </div>
 
 <!--
     
