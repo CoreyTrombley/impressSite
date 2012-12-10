@@ -11,10 +11,6 @@ $(document).ready(function() {
    isAnimated: !Modernizr.csstransitions
   });
 
-  $(".fancybox")
-    .attr('rel', 'gallery')
-    .fancybox({
-        padding : 0
-    });
+  $(".fancybox").fancybox();
 
 });
