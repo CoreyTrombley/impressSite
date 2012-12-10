@@ -84,7 +84,11 @@ table {
 body {
     font-family: 'Duru Sans', sans-serif;
     min-height: 740px;
-    
+    /*background: url(../img/bg2.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
@@ -120,6 +124,10 @@ a {
 a:hover,
 a:focus {
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+label {
+    font-size: 25px;
 }
 
 /*
@@ -380,7 +388,7 @@ a:focus {
 */
 
 #imagination {
-    width: 600px;
+    width: auto;
 }
 
 #imagination .imagination {
@@ -402,6 +410,7 @@ a:focus {
     Just make sure you don't blindly copy this approach.
 */
 #source {
+    margin: 400px auto;
     width: 700px;
     padding-bottom: 300px;
 }
@@ -712,6 +721,119 @@ h3 {
 .shadow {
     text-shadow: 0px -5px 0px rgba(0, 0, 0, .25);
 }
+
+.port {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 10px;
+    margin-top: 110px;
+    width: 1100px;
+    height: 440px;
+
+}
+
+/*   design page images */
+.img3 {
+  background:url(../img/elaineport/ASE.png) no-repeat center -146px;
+  border-radius: 10px;
+  background-size: auto 425px ;
+}
+.img4 {
+  background:url(../img/elaineport/BusCard.jpg) no-repeat center;
+  border-radius: 10px;
+  background-size: auto 275px;
+}
+.img5 {
+  background:url(../img/elaineport/DVhBanner1.jpg) no-repeat -20px;
+  border-radius: 10px;
+  background-size: auto 200px ;
+}
+.img7 {
+  background:url(../img/elaineport/MVpvite.jpg) no-repeat -40px -100px;
+  border-radius: 10px;
+  background-size: auto 500px ;
+}
+.img6 {
+  background:url(../img/elaineport/KidsDashBoardBanner.jpg) no-repeat -205px;
+  border-radius: 10px;
+  background-size: auto 200px ;
+}
+.img8 {
+  background:url(../img/elaineport/quilibleIphone.jpg) no-repeat center -140px;
+  border-radius: 10px;
+  background-size: auto 570px ;
+}
+.img9 {
+  background:url(../img/elaineport/quilibleSmall.png) no-repeat center;
+  border-radius: 10px;
+  background-size: 200px auto ;
+}
+.img10 {
+  background:url(../img/elaineport/Sampleflyer1.jpg) no-repeat center top;
+  border-radius: 10px;
+  background-size: auto 475px ;
+}
+.img11 {
+  background:url(../img/elaineport/Sampleflyer2.jpg) no-repeat center -81px;
+  border-radius: 10px;
+  background-size: auto 400px ;
+}
+.img12 {
+  background:url(../img/elaineport/weddingMenu.jpg) no-repeat bottom center;
+  border-radius: 10px;
+  background-size: auto 600px ;
+}
+
+
+#content {
+/*  width: 980px;
+  width: 95%;    */
+  width: auto;
+  margin: 0 auto;
+}
+
+.box {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+
+
+
+
+
+
+
 
 
 
