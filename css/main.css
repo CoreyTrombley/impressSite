@@ -1,0 +1,219 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+  background: #000;
+  color: white;
+}
+
+footer p {
+  color: white;
+  font-size: 1em;
+}
+
+.quilible {
+  background-color: #2CDEA1;
+}
+
+.alpha {
+  opacity: 0.9;
+}
+.alpha:hover {
+  opacity: 1;
+}
+
+h3 {
+  color: #2CDEA1;
+}
+
+.sized {
+  max-width: 720px;
+}
+
+.centered {
+  margin: 0 auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#content {
+/*  width: 980px;
+  width: 95%;    */
+  width: auto;
+  margin: 0 auto;
+}
+
+.box {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0 20px 20px 0;
+}
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+
+.featured {
+  width: 640px;
+}
+
+.box img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.featured img {
+  width: 640px;
+  height: 420px;
+}
+
+.pill {
+  background-color: rgba(255,255,255,.5);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  max-width: 900px;
+  min-width: 660px;
+}
+
+.trans {
+  position:relative;
+  border-radius: 10px;
+  height: auto;
+  width: 640px;
+}
+
+.trans img.top {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  -ms-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.trans img.top:hover {
+  opacity: 0;
+  border-radius: 10px;
+}
+
+/*   design page images */
+.img3 {
+  background:url(../img/elaineport/ASE.png) no-repeat center -146px;
+  border-radius: 10px;
+  background-size: auto 425px ;
+}
+.img4 {
+  background:url(../img/elaineport/BusCard.jpg) no-repeat center;
+  border-radius: 10px;
+  background-size: auto 275px;
+}
+.img5 {
+  background:url(../img/elaineport/DVhBanner1.jpg) no-repeat -20px;
+  border-radius: 10px;
+  background-size: auto 200px ;
+}
+.img7 {
+  background:url(../img/elaineport/MVpvite.jpg) no-repeat -40px -100px;
+  border-radius: 10px;
+  background-size: auto 500px ;
+}
+.img6 {
+  background:url(../img/elaineport/KidsDashBoardBanner.jpg) no-repeat -205px;
+  border-radius: 10px;
+  background-size: auto 200px ;
+}
+.img8 {
+  background:url(../img/elaineport/quilibleIphone.jpg) no-repeat center -140px;
+  border-radius: 10px;
+  background-size: auto 570px ;
+}
+.img9 {
+  background:url(../img/elaineport/quilibleSmall.png) no-repeat center;
+  border-radius: 10px;
+  background-size: 200px auto ;
+}
+.img10 {
+  background:url(../img/elaineport/Sampleflyer1.jpg) no-repeat center top;
+  border-radius: 10px;
+  background-size: auto 475px ;
+}
+.img11 {
+  background:url(../img/elaineport/Sampleflyer2.jpg) no-repeat center -81px;
+  border-radius: 10px;
+  background-size: auto 400px ;
+}
+.img12 {
+  background:url(../img/elaineport/weddingMenu.jpg) no-repeat bottom center;
+  border-radius: 10px;
+  background-size: auto 600px ;
+}
+
+}
+#container {
+  min-height:100%;
+  position:relative;
+  width: 80%;
+}
+#header {
+  padding:10px;
+}
+#main {
+  padding:10px;
+  padding-bottom:60px;
+}
+#footer {
+  position:absolute;
+  bottom:0;
+  left: 10%;
+  width:80%;
+  height:60px;
+}
+#helper {
+  position: relative;
+  text-align: center;
+}
+
+input {
+  border-radius: 4px !important;
+}
+
+textarea {
+  border-radius: 4px !important;
+}
+
+
+
+
+
