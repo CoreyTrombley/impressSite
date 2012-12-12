@@ -4,8 +4,8 @@ $(document).ready(function() {
   $('#content').masonry({
    columnWidth: 220,
    itemSelector: '.box',
-   isFitWidth: true,
-   isResizable: false,
+   isFitWidth: false,
+   isResizable: true,
   }).imagesLoaded(function() {
    $('#content').masonry('reload');
    isAnimated: !Modernizr.csstransitions
