@@ -7,19 +7,23 @@
 
 
 body {
-  background: url(../img/bg2.jpg)no-repeat center center fixed; 
+  background: url(../img/sparkle.jpg)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
+  color: black
   -webkit-font-smoothing: antialiased;
      font-smoothing: antialiased;
 }
 
 footer p {
-  color: white;
+  color: black;
   font-size: 1em;
+}
+hr {
+  border-bottom: 1px solid rgba(0,0,0,.0);
+  border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .quilible {
@@ -43,7 +47,6 @@ h3 {
 
 .centered {
   margin: 0 auto;
-  border-radius: 10px 10px 10px 10px;
 }
 
 #content {
@@ -58,7 +61,7 @@ h3 {
   float: left;
   width: 200px;
   height: 200px;
-  margin: 0 20px 20px 0;
+  margin: 5px;
 }
 
 .masonry,
@@ -89,34 +92,31 @@ h3 {
 
 
 .featured {
-  width: 640px;
+  width: 620px;
 }
 
 .box img {
   width: 300px;
   height: 300px;
-  border-radius: 10px;
 }
 
 .featured img {
-  width: 640px;
-  height: 420px;
+  width: 620px;
+  height: 410px;
 }
 
 .pill {
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.3);
   border-radius: 10px;
-  padding-left: 20px;
-  padding-top: 20px;
-  max-width: 900px;
+  padding: 10px;
+  max-width: 840px;
   min-width: 660px;
 }
 
 .trans {
   position:relative;
-  border-radius: 10px;
   height: auto;
-  width: 640px;
+  width: 620px;
 }
 
 .trans img.top {
@@ -127,64 +127,43 @@ h3 {
   -o-transition: opacity 3s ease-in-out;
   -ms-transition: opacity 3s ease-in-out;
   transition: opacity 3s ease-in-out;
-  border-radius: 10px;
 }
 
 .trans img.top:hover {
   opacity: 0;
-  border-radius: 10px;
 }
 
 /*   design page images */
 .img3 {
-  background:url(../img/elaineport/ASE.png) no-repeat center -146px;
-  border-radius: 10px;
-  background-size: auto 425px ;
+  background:url(../img/elaineport/ASE_thumb.png) no-repeat;
 }
 .img4 {
-  background:url(../img/elaineport/BusCard.jpg) no-repeat center;
-  border-radius: 10px;
-  background-size: auto 275px;
+  background:url(../img/elaineport/bus_card_thumb.jpg) no-repeat;
 }
 .img5 {
-  background:url(../img/elaineport/DVhBanner1.jpg) no-repeat -20px;
-  border-radius: 10px;
-  background-size: auto 200px ;
+  background:url(../img/elaineport/DVhBanner1_thumb.jpg) no-repeat;
 }
 .img7 {
-  background:url(../img/elaineport/MVpvite.jpg) no-repeat -40px -100px;
-  border-radius: 10px;
-  background-size: auto 500px ;
+  background:url(../img/elaineport/MVpvite_thumb.jpg) no-repeat;
 }
 .img6 {
-  background:url(../img/elaineport/KidsDashBoardBanner.jpg) no-repeat -205px;
-  border-radius: 10px;
-  background-size: auto 200px ;
+  background:url(../img/elaineport/KidsDashboardBanner_thumb.jpg) no-repeat center;
+  background-size: 210px 210px;
 }
 .img8 {
-  background:url(../img/elaineport/quilibleIphone.jpg) no-repeat center -140px;
-  border-radius: 10px;
-  background-size: auto 570px ;
+  background:url(../img/elaineport/quilibleIphone_thumb.jpg) no-repeat;
 }
 .img9 {
-  background:url(../img/elaineport/quilibleSmall.png) no-repeat center;
-  border-radius: 10px;
-  background-size: 200px auto ;
+  background:url(../img/elaineport/quilibleSmall_thumb.png) no-repeat center center;
 }
 .img10 {
-  background:url(../img/elaineport/Sampleflyer1.jpg) no-repeat center top;
-  border-radius: 10px;
-  background-size: auto 475px ;
+  background:url(../img/elaineport/Sampleflyer1_thumb.jpg) no-repeat;
 }
 .img11 {
-  background:url(../img/elaineport/Sampleflyer2.jpg) no-repeat center -81px;
-  border-radius: 10px;
-  background-size: auto 400px ;
+  background:url(../img/elaineport/sampleflyer2_thumb.jpg) no-repeat;
 }
 .img12 {
-  background:url(../img/elaineport/weddingMenu.jpg) no-repeat bottom center;
-  border-radius: 10px;
-  background-size: auto 600px ;
+  background:url(../img/elaineport/weddingMenu_thumb.jpg) no-repeat;
 }
 
 }
@@ -199,6 +178,7 @@ h3 {
 #main {
   padding:10px;
   padding-bottom:60px;
+  font-family: 'Lato', sans-serif;
 }
 #footer {
   position:absolute;
@@ -213,6 +193,12 @@ h3 {
   color: black;
 }
 
+.hidden {
+  width: 0;
+  height: o;
+  display: none;
+}
+
 input {
   border-radius: 4px !important;
 }
@@ -221,15 +207,30 @@ textarea {
   border-radius: 4px !important;
 }
 
-.pills {
-  background-color: rgba(255,255,255,.5);
-  border-radius: 10px;
-  padding-left: 20px;
-  padding-top: 20px;
-  width: 400px;
-  height: 325px;
-  margin: 100px auto;
+.navbar {
+  font-family: 'Lato', sans-serif;
+}
+.middleized {
+  margin-top: 100px;
 }
 
+.fancybox-nav {
+    width: 60px;       
+}
 
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
 
+.fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
+}
